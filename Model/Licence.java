@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 
  */
-public class Licence {
+public class Licence extends ListesPermis_ClasseAbstraite {
 
     /**
      * Default constructor

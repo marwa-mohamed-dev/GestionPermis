@@ -34,9 +34,8 @@ public class ListesPermis_ClasseAbstraite implements Interface_ListesPermis {
     /**
      * @return
      */
-    public boolean clear() {
+    public void clear() {
         // TODO implement here
-        return false;
     }
 
 }
