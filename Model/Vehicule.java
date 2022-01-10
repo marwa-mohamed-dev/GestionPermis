@@ -1,10 +1,11 @@
+package Model;
 
 import java.util.*;
 
 /**
  * 
  */
-public class Vehicule extends Vehicule {
+public class Vehicule {
 
     /**
      * Default constructor
@@ -45,11 +46,9 @@ public class Vehicule extends Vehicule {
 
     /**
      * @param String s 
-     * @return
      */
-    public void setMarque(void String s) {
+    public void setMarque(String s) {
         // TODO implement here
-        return null;
     }
 
 }

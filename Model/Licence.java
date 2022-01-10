@@ -1,3 +1,4 @@
+package Model;
 
 import java.util.*;
 
@@ -69,9 +70,8 @@ public class Licence {
      * @param Date d 
      * @return
      */
-    public void setDatExpiration(void Date d) {
+    public void setDatExpiration(Date d) {
         // TODO implement here
-        return null;
     }
 
     /**
@@ -86,9 +86,8 @@ public class Licence {
      * @param String s 
      * @return
      */
-    public void setStatut(void String s) {
+    public void setStatut(String s) {
         // TODO implement here
-        return null;
     }
 
     /**
@@ -111,9 +110,8 @@ public class Licence {
      * @param String s 
      * @return
      */
-    public void setTypePermis(void String s) {
+    public void setTypePermis( String s) {
         // TODO implement here
-        return null;
     }
 
 }

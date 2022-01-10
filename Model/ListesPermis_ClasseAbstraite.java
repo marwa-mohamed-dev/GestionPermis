@@ -1,3 +1,4 @@
+package Model;
 
 import java.util.*;
 
@@ -16,7 +17,7 @@ public class ListesPermis_ClasseAbstraite implements Interface_ListesPermis {
      * @param Licence l 
      * @return
      */
-    public boolean Add(void Licence l) {
+    public boolean Add( Licence l) {
         // TODO implement here
         return false;
     }
@@ -25,7 +26,7 @@ public class ListesPermis_ClasseAbstraite implements Interface_ListesPermis {
      * @param Licence l 
      * @return
      */
-    public boolean Remove(void Licence l) {
+    public boolean Remove(Licence l) {
         // TODO implement here
         return false;
     }

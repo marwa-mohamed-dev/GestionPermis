@@ -1,4 +1,4 @@
-
+package Model;
 import java.util.*;
 
 /**
@@ -49,9 +49,8 @@ public class Conducteur {
      * @param int id 
      * @return
      */
-    public void setIdentifiant(void int id) {
+    public void setIdentifiant( int id) {
         // TODO implement here
-        return null;
     }
 
 }

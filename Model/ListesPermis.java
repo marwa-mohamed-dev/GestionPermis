@@ -1,3 +1,4 @@
+package Model;
 
 import java.util.*;
 
@@ -23,9 +24,8 @@ public class ListesPermis extends ListesPermis_ClasseAbstraite {
      * @param Vehicule v 
      * @return
      */
-    public void AjouterVehiculeAuPermis(void int identifiantPermis, void Vehicule v) {
+    public void AjouterVehiculeAuPermis( int identifiantPermis, Vehicule v) {
         // TODO implement here
-        return null;
     }
 
     /**
@@ -33,9 +33,8 @@ public class ListesPermis extends ListesPermis_ClasseAbstraite {
      * @param Vehicule v 
      * @return
      */
-    public void RetirerVehiculeAuPermis(void int identifiantPermis, void Vehicule v) {
+    public void RetirerVehiculeAuPermis( int identifiantPermis, Vehicule v) {
         // TODO implement here
-        return null;
     }
 
     /**
@@ -43,27 +42,24 @@ public class ListesPermis extends ListesPermis_ClasseAbstraite {
      * @param Date nouvelleDateExpiration 
      * @return
      */
-    public void RenouvelerPermis(void int identifiantPermis, void Date nouvelleDateExpiration) {
+    public void RenouvelerPermis( int identifiantPermis, Date nouvelleDateExpiration) {
         // TODO implement here
-        return null;
     }
 
     /**
      * @param int identifiantPermis 
      * @return
      */
-    public void SuspendrePermis(void int identifiantPermis) {
+    public void SuspendrePermis(int identifiantPermis) {
         // TODO implement here
-        return null;
     }
 
     /**
      * @param int identifiantPermis 
      * @return
      */
-    public void SupprimerPermis(void int identifiantPermis) {
+    public void SupprimerPermis(int identifiantPermis) {
         // TODO implement here
-        return null;
     }
 
     /**
@@ -71,7 +67,6 @@ public class ListesPermis extends ListesPermis_ClasseAbstraite {
      */
     public void AfficherListePermis() {
         // TODO implement here
-        return null;
     }
 
 }
