@@ -2,7 +2,7 @@ package Model;
 
 import java.util.*;
 
-public class Licence extends ListesPermis_ClasseAbstraite {
+public class Licence  {
 
     public Licence(Date d, Conducteur c) {
 
@@ -15,7 +15,7 @@ public class Licence extends ListesPermis_ClasseAbstraite {
     private int identifiant;
     public String typePermis;
     public Conducteur Conducteur;
-    public ListesPermis liste;
+    public ArrayList<Licence> ListesPermis;
     public Vehicule listeVehicules;
 
     public Date getDateExpiration() {
@@ -46,5 +46,7 @@ public class Licence extends ListesPermis_ClasseAbstraite {
     public void setTypePermis( String s) {
         this.typePermis = s;
     }
+
+    
 
 }

@@ -2,41 +2,29 @@ package Model;
 
 import java.util.*;
 
-public class ListesPermis_ClasseAbstraite implements Interface_ListesPermis {
-
-    public ListesPermis_ClasseAbstraite() {
-
+public abstract class ListesPermis_ClasseAbstraite implements Interface_ListesPermis {
+    ArrayList<Licence> licences = new ArrayList<>();
+    public void add( Licence l) {
+        licences.add(l);
     }
 
-    public boolean Add( Licence l) {
-        return false;
-    }
-
-    public boolean Remove(Licence l) {
-        return false;
-    }
-
-    public void clear() {
+    public void remove(Licence l) {
+        licences.remove(l);
     }
 
     public boolean isEmpty() {
-        return false;
+        return (licences.size() == 0);
     }
 
     public int size() {
-        return 0;
+        return licences.size();
     }
 
     public boolean contains(Licence l) {
-        return false;
-    }
+        return licences.contains(l);
 
-    public boolean add(Licence l) {
-        return false;
-    }
+	}
 
-    public Licence remove(Licence l) {
-        return null;
-    }
+    
 
 }

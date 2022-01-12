@@ -3,7 +3,7 @@ package Model;
 
 public interface Interface_ListesPermis {
         //Enlève tous les permis
-		public void clear();
+		//public void clear();
 		
 		//Vérifie si la liste est vide ou non
 		public boolean isEmpty();
@@ -15,10 +15,10 @@ public interface Interface_ListesPermis {
 		public boolean contains(Licence l);
 		
 		//Ajoute un permis dans la liste s'il n'existe pas
-		public boolean add(Licence l);
+		public void add(Licence l);
 		
 		//Enlève et retourne le permis l (null sinon)
-		public Licence remove(Licence l);
+		public void remove(Licence l);
 		
 }
 
