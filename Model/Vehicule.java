@@ -4,27 +4,33 @@ import java.util.*;
 
 public class Vehicule {
 
-    public Vehicule() {
+    public Vehicule(int numEmatriculation, String marque) {
+        this.numEmatriculation = numEmatriculation;
+        this.marque = marque;
     }
 
     public int numEmatriculation;
-
     public String marque;
-
-    public Licence permis;
+    public Licence licence;
 
     public int getNumEmatricule() {
-        // TODO implement here
-        return 0;
+        return this.numEmatriculation;
     }
 
     public String getMarque() {
-        // TODO implement here
-        return "";
+        return this.marque;
     }
 
     public void setMarque(String s) {
-        // TODO implement here
+        this.marque = s;
+    }
+
+    public Licence getLicence() {
+        return this.licence;
+    }
+
+    public void setLicence( Licence l) {
+        this.licence= l;
     }
 
 }

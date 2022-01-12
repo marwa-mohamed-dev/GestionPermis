@@ -3,26 +3,28 @@ import java.util.*;
 
 public class Conducteur {
 
-    public Conducteur() {
+    public Conducteur(String n, String p, Date d) {
+        this.Nom = n;
+        this.Prenom = p;
+        this.DateNaissance = d;
     }
 
     public String Nom;
-
     public String Prenom;
-
     public Date DateNaissance;
-
     public int identifiant;
-
-    public Licence permis;
+    public Licence licence;
 
     public int getIdentifiant() {
-        // TODO implement here
-        return 0;
+        return this.identifiant;
     }
 
-    public void setIdentifiant( int id) {
-        // TODO implement here
+    public Licence getLicence() {
+        return this.licence;
+    }
+
+    public void setLicence( Licence l) {
+        this.licence= l;
     }
 
 }

@@ -4,57 +4,47 @@ import java.util.*;
 
 public class Licence extends ListesPermis_ClasseAbstraite {
 
-    public Licence() {
+    public Licence(Date d, Conducteur c) {
+
     }
 
     public String statut;
-
     public Date dateExpiration;
-
     public String policeAssurance;
-
     public ArrayList<Vehicule> listeVehicule;
-
     private int identifiant;
-
     public String typePermis;
-
     public Conducteur Conducteur;
-
     public ListesPermis liste;
-
     public Vehicule listeVehicules;
 
     public Date getDateExpiration() {
-        // TODO implement here
-        return null;
+        return this.dateExpiration;
     }
 
     public void setDatExpiration(Date d) {
-        // TODO implement here
+        this.dateExpiration = d;
     }
 
     public String getStatut() {
-        // TODO implement here
-        return "";
+        return this.statut;
     }
 
     public void setStatut(String s) {
-        // TODO implement here
+        this.statut = s;
     }
 
     public int getIdentifiant() {
-        // TODO implement here
-        return 0;
+        return this.identifiant;
     }
 
     public String getTypePermis() {
-        // TODO implement here
-        return "";
+        return this.typePermis;
     }
 
+    /// a modifier
     public void setTypePermis( String s) {
-        // TODO implement here
+        this.typePermis = s;
     }
 
 }
