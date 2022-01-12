@@ -1,10 +1,6 @@
 package Model;
 
-import java.util.*;
 
-/**
- * 
- */
 public interface Interface_ListesPermis {
         //Enlève tous les permis
 		public void clear();
